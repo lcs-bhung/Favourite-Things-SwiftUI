@@ -11,6 +11,9 @@ import SwiftUI
 struct Favourite_Things_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
+            
+        
+        
             ContentView()
         }
     }

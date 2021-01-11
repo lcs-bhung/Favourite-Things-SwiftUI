@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57486E8825ACDEAC00C91B77 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57486E8725ACDEAB00C91B77 /* Thing.swift */; };
+		57486E8D25ACE06200C91B77 /* Things.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57486E8C25ACE06200C91B77 /* Things.swift */; };
+		576AFD0E25AB5C0300930045 /* ThingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576AFD0D25AB5C0200930045 /* ThingDetailView.swift */; };
 		57CA457A25A8EA980071D83E /* Favourite_Things_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA457925A8EA980071D83E /* Favourite_Things_SwiftUIApp.swift */; };
 		57CA457C25A8EA980071D83E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA457B25A8EA980071D83E /* ContentView.swift */; };
 		57CA457E25A8EA9E0071D83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CA457D25A8EA9E0071D83E /* Assets.xcassets */; };
@@ -33,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57486E8725ACDEAB00C91B77 /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		57486E8C25ACE06200C91B77 /* Things.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things.swift; sourceTree = "<group>"; };
+		576AFD0D25AB5C0200930045 /* ThingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetailView.swift; sourceTree = "<group>"; };
 		57CA457625A8EA980071D83E /* Favourite Things SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favourite Things SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CA457925A8EA980071D83E /* Favourite_Things_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite_Things_SwiftUIApp.swift; sourceTree = "<group>"; };
 		57CA457B25A8EA980071D83E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 				57CA457D25A8EA9E0071D83E /* Assets.xcassets */,
 				57CA458225A8EA9E0071D83E /* Info.plist */,
 				57CA457F25A8EA9E0071D83E /* Preview Content */,
+				576AFD0D25AB5C0200930045 /* ThingDetailView.swift */,
+				57486E8725ACDEAB00C91B77 /* Thing.swift */,
+				57486E8C25ACE06200C91B77 /* Things.swift */,
 			);
 			path = "Favourite Things SwiftUI";
 			sourceTree = "<group>";
@@ -261,6 +270,9 @@
 			files = (
 				57CA457C25A8EA980071D83E /* ContentView.swift in Sources */,
 				57CA457A25A8EA980071D83E /* Favourite_Things_SwiftUIApp.swift in Sources */,
+				576AFD0E25AB5C0300930045 /* ThingDetailView.swift in Sources */,
+				57486E8825ACDEAC00C91B77 /* Thing.swift in Sources */,
+				57486E8D25ACE06200C91B77 /* Things.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
