@@ -8,7 +8,7 @@
 import Foundation
 
 // A class does not automatically generate an iniialiser
-class Things{
+struct Things{
     
     //Properties
     var list: [Thing] = []
@@ -23,6 +23,12 @@ class Things{
         list.append(Thing(title: "Sushi", imageName: "Toro", description: "Sushhi is currently my favourite food to eat. Too bad that it's hard to get here in LCS"))
         
         list.append(Thing(title: "Hockey", imageName: "Hockey", description: "I started playing Hockey a year ago and I'm really enjoying despite not being that good"))
+        
+        list.append(Thing(title: "Cars", imageName: "180sx", description: "I enjoy racing cars on the simulator and I hope to get into modding them in the future"))
+        
+        list.append(Thing(title: "Japan", imageName: "Japan", description: "I like Japanese culture and I am currently studying japanese 日本語凄いね"))
+        
+        
     
     }
     
